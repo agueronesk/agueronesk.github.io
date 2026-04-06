@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>5026241105</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&family=Poppins:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #134094;
+            font-family: 'Poppins', sans-serif;
+            overflow: hidden;
+        }
+
+        .kotak {
+            background-image: url('bg-card-linktree.jpg');
+            background-size: cover;
+            background-position: center;
+            border-radius: 28px;
+            height: 90vh;
+            width: 100%;
+            max-width: 420px;
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+        }
+
+        .scroll {
+            scrollbar-width: thin;
+            scrollbar-color: rgba(31, 0, 104, 0.25) transparent;
+        }
+
+        .scroll::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        .scroll::-webkit-scrollbar-thumb {
+            background: rgba(31, 0, 104, 0.25);
+            border-radius: 99px;
+        }
+
+        .avatar {
+            width: 76px;
+            height: 76px;
+            background: #134094;
+            color: #ffffff;
+            font-size: 32px;
+            border-radius: 50%;
+            box-shadow: 0 6px 24px rgba(59, 130, 246, 0.45);
+        }
+
+        .nrp {
+            font-family: 'Nunito', sans-serif;
+            font-size: 18px;
+        }
+
+        .nama {
+            font-size: 78%;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .ikon-kontak a {
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 105%;
+            transition: color 0.2s, transform 0.2s;
+        }
+
+        .ikon-kontak a:hover {
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        .teks-pembatas {
+            font-family: 'Nunito', sans-serif;
+            font-size: 90%;
+        }
+
+        .daftar-tugas {
+            border-radius: 14px;
+        }
+
+        .daftar-tugas:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+        }
+
+        .ikon-tugas {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            font-size: 110%;
+        }
+
+        /* Warna kustom untuk ikon tugas */
+        .ikon-merah {
+            background: #ee97b9;
+            color: #d42441;
+        }
+
+        .ikon-kuning {
+            background: #fef3c7;
+            color: #d97706;
+        }
+
+        .ikon-hijau {
+            background: #ccfbf1;
+            color: #0f766e;
+        }
+
+        .ikon-biru {
+            background: #1d4ed8;
+            color: #fff;
+        }
+
+        .ikon-abu-abu {
+            background: #f1f5f9;
+            color: #475569;
+        }
+
+        .ikon-ungu {
+            background: #ede9fe;
+            color: #7c3aed;
+        }
+
+        .teks-daftar-tugas {
+            font-size: 80%;
+            font-weight: 500;
+        }
+
+        .ikon-titik-tiga {
+            color: #94a3b8;
+            font-size: 100%;
+        }
+
+        .bottom-bar {
+            background: rgba(255, 255, 255, 0.04);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .kotak-paling-bawah {
+            border-radius: 999px;
+            font-family: 'Nunito', sans-serif;
+            font-size: 90%;
+        }
+    </style>
+</head>
+
+<body class="vh-100 d-flex justify-content-center align-items-center">
+    <div class="kotak d-flex flex-column m-3">
+
+        <div class="scroll flex-grow-1 overflow-auto px-3 pb-4">
+
+            <!--Profil dan Identitas-->
+            <div class="text-center mt-4 mb-4">
+                <div class="avatar mx-auto mb-2 d-flex align-items-center justify-content-center">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="nrp font-weight-bold text-white d-flex align-items-center justify-content-center">
+                    5026241105
+                </div>
+                <div class="nama mt-1">Alfina Prihartanti</div>
+                <div class="ikon-kontak d-flex justify-content-center mt-3">
+                    <a href="https://wa.me/6285173435765" class="mx-2"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/alfinaprihartanti/" class="mx-2"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:alfina.prihartanti.sch@gmail.com" class="mx-2"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <!--Kotak 1-->
+            <a href="pertemuan5.html"
+                class="daftar-tugas bg-white d-flex align-items-center p-2 mb-2 text-dark text-decoration-none">
+                <div class="ikon-tugas ikon-merah d-flex align-items-center justify-content-center flex-shrink-0"><i
+                        class="fas fa-asterisk"></i></div>
+                <span class="teks-daftar-tugas flex-grow-1 px-3">Pertemuan 5</span>
+                <span class="ikon-titik-tiga pr-2"><i class="fas fa-ellipsis-vertical"></i></span>
+            </a>
+
+            <!--Kotak 2-->
+            <a href="https://agueronesk.github.io" class="daftar-tugas bg-white d-flex align-items-center p-2 mb-2 text-dark text-decoration-none">
+                <div class="ikon-tugas ikon-kuning d-flex align-items-center justify-content-center flex-shrink-0"><i
+                        class="fas fa-mobile-screen"></i></div>
+                <span class="teks-daftar-tugas flex-grow-1 px-3">Tugas Link Tree</span>
+                <span class="ikon-titik-tiga pr-2"><i class="fas fa-ellipsis-vertical"></i></span>
+            </a>
+
+            <!--Kotak 3-->
+            <a href="#" class="daftar-tugas bg-white d-flex align-items-center p-2 mb-2 text-dark text-decoration-none">
+                <div class="ikon-tugas ikon-hijau d-flex align-items-center justify-content-center flex-shrink-0"><i
+                        class="fas fa-earth-americas"></i></div>
+                <span class="teks-daftar-tugas flex-grow-1 px-3">Tugas Make Over Akun Instagram</span>
+                <span class="ikon-titik-tiga pr-2"><i class="fas fa-ellipsis-vertical"></i></span>
+            </a>
+
+            <!--Kotak 4-->
+            <a href="#" class="daftar-tugas bg-white d-flex align-items-center p-2 mb-2 text-dark text-decoration-none">
+                <div class="ikon-tugas ikon-abu-abu d-flex align-items-center justify-content-center flex-shrink-0"><i
+                        class="far fa-circle-question"></i></div>
+                <span class="teks-daftar-tugas flex-grow-1 px-3">UTS</span>
+                <span class="ikon-titik-tiga pr-2"><i class="fas fa-ellipsis-vertical"></i></span>
+            </a>
+
+            <!--Coming Soon-->
+            <div class="teks-pembatas text-white text-center text-uppercase font-weight-bold my-3">✦ Coming Soon! ✦
+            </div>
+
+            <!--Kotak 5-->
+            <a href="#" class="daftar-tugas bg-white d-flex align-items-center p-2 mb-2 text-dark text-decoration-none">
+                <div class="ikon-tugas ikon-kuning d-flex align-items-center justify-content-center flex-shrink-0"><i
+                        class="fas fa-earth-americas"></i></div>
+                <span class="teks-daftar-tugas flex-grow-1 px-3">Coming Soon</span>
+                <span class="ikon-titik-tiga pr-2"><i class="fas fa-ellipsis-vertical"></i></span>
+            </a>
+
+            <!--Kotak 6-->
+            <a href="#" class="daftar-tugas bg-white d-flex align-items-center p-2 mb-2 text-dark text-decoration-none">
+                <div class="ikon-tugas ikon-ungu d-flex align-items-center justify-content-center flex-shrink-0"><i
+                        class="far fa-square-caret-down"></i></div>
+                <span class="teks-daftar-tugas flex-grow-1 px-3">Coming Soon</span>
+                <span class="ikon-titik-tiga pr-2"><i class="fas fa-ellipsis-vertical"></i></span>
+            </a>
+
+            <!--Kotak 7-->
+            <a href="#" class="daftar-tugas bg-white d-flex align-items-center p-2 mb-2 text-dark text-decoration-none">
+                <div class="ikon-tugas ikon-hijau d-flex align-items-center justify-content-center flex-shrink-0"><i
+                        class="fas fa-chart-line"></i></div>
+                <span class="teks-daftar-tugas flex-grow-1 px-3">Coming Soon</span>
+                <span class="ikon-titik-tiga pr-2"><i class="fas fa-ellipsis-vertical"></i></span>
+            </a>
+
+            <!--Kotak 8-->
+            <a href="#" class="daftar-tugas bg-white d-flex align-items-center p-2 mb-2 text-dark text-decoration-none">
+                <div class="ikon-tugas ikon-merah d-flex align-items-center justify-content-center flex-shrink-0"><i
+                        class="fas fa-palette"></i></div>
+                <span class="teks-daftar-tugas flex-grow-1 px-3">Coming Soon</span>
+                <span class="ikon-titik-tiga pr-2"><i class="fas fa-ellipsis-vertical"></i></span>
+            </a>
+
+            <!--Kotak 9-->
+            <a href="#" class="daftar-tugas bg-white d-flex align-items-center p-2 mb-2 text-dark text-decoration-none">
+                <div class="ikon-tugas ikon-biru d-flex align-items-center justify-content-center flex-shrink-0"><i
+                        class="fas fa-link"></i></div>
+                <span class="teks-daftar-tugas flex-grow-1 px-3">Coming Soon</span>
+                <span class="ikon-titik-tiga pr-2"><i class="fas fa-ellipsis-vertical"></i></span>
+            </a>
+
+        </div>
+
+        <div class="bottom-bar px-3 py-3 d-flex flex-column align-items-center text-center">
+            <button class="kotak-paling-bawah btn bg-white text-dark font-weight-bold w-100 py-2 border-0 mb-2"
+                style="max-width: 280px;">Pemrograman Web</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
