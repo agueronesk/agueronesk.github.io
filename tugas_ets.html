@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ArchDaily - The global reference for architecture</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Favicons -->
+    <link href="aset/img/icon.jpg" rel="icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="aset/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="aset/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="aset/vendor/aos/aos.css" rel="stylesheet">
+    <link href="aset/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="aset/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="aset/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+            <a href="tugas_ets.html" class="logo d-flex align-items-center me-auto">
+                <img src="aset/img/icon.jpg" alt="Arch Daily Icon">
+                <h1 class="sitename">Arch Daily</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">Home</a></li>
+                    <li><a href="#about">Student project Award</a></li>
+                    <li><a href="#why-us">Editor's Choice</a></li>
+                    <li><a href="#testimonials">Architecture Competition</a></li>
+                    <li class="dropdown"><a href="#architecture"><span>Architecture</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#public-spaces">Public Spaces</a></li>
+                            <li><a href="#house">House</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#team">Project Review</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="#">Sign In</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+            <div class="container">
+                <div class="row gy-4">
+                    <!--Tulisan-->
+                    <div class="col-lg-8 order-2 order-lg-1 d-flex flex-column justify-content-center"
+                        data-aos="zoom-out">
+                        <h1>The global reference for architecture</h1>
+                        <p>We believe architecture matters, and the way we talk about it shapes how it's imagined,
+                            practiced, and lived.</p>
+                        <div class="d-flex">
+                            <a href="#about" class="btn-get-started">Student Project Award</a>
+                        </div>
+                    </div>
+
+                    <!--Gambar-->
+                    <div id="demo" class="carousel slide col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out"
+                        data-aos-delay="200" data-ride="carousel">
+
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="aset/img/home.jpg" class="img-fluid animated" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="aset/img/home2.jpg" class="img-fluid animated" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="aset/img/home3.jpg" class="img-fluid animated" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Hero Section -->
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Student Project Award - Meet The Winner</h2>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+                <!--Teks-->
+                <div class="row gy-4">
+
+                    <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+                        <p>
+                            Meet Regenerative Salt Landscapes, one of the winning projects of the Students Project
+                            Awards! Regenerative Salt Landscapes by:
+                        </p>
+                        <ul>
+                            <li><i class="bi bi-check2-circle"></i> <span>Ezequiel Lopez (@ezequiel.lqz)</span></li>
+                            <li><i class="bi bi-check2-circle"></i> <span>María Victoria Echegaray
+                                    (@victoriaechegaray__)</span></li>
+                            <li><i class="bi bi-check2-circle"></i> <span>Agustina Durandez (@agusdurandez)</span></li>
+                            <li><i class="bi bi-check2-circle"></i> <span>Universidad Nacional de Córdoba
+                                    @uncoficial</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <p>Located in Olaroz Salt Flat in Jujuy, Argentina, the project addresses a landscape shared by
+                            lithium extraction and increasing environmental fragility. Instead of opposing industry, the
+                            proposal turns existing infrastructures into regeneration catalysts, transforming the
+                            territory into a diversified productive ecosystem.</p>
+                        <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                    </div>
+
+                </div>
+                <!--Gambar-->
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <img src="aset/img/winner1.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <a href="aset/img/winner1.jpg" title="App 1" data-gallery="portfolio-gallery-app"
+                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <img src="aset/img/winner2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <a href="aset/img/winner2.jpg" title="Product 1"
+                                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <img src="aset/img/winner3.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <a href="aset/img/winner3.jpg" title="Branding 1"
+                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                            <img src="aset/img/winner4.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <a href="aset/img/winner4.jpg" title="App 2" data-gallery="portfolio-gallery-app"
+                                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                            <img src="aset/img/winner5.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <a href="aset/img/winner5.jpg" title="Product 2"
+                                    data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                            <img src="aset/img/winner6.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <a href="aset/img/winner6.jpg" title="Branding 2"
+                                    data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                        class="bi bi-zoom-in"></i></a>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                    </div><!-- End Portfolio Container -->
+
+                </div>
+
+
+            </div>
+
+        </section><!-- /About Section -->
+
+        <!-- Why Us/Editor's Choice Section -->
+        <section id="why-us" class="section why-us light-background" data-builder="section">
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Editor's Choice</h2>
+            </div><!-- End Section Title -->
+
+            <div class="container-fluid">
+                <div class="row gy-4">
+                    <!--Tulisan Editor's Choice-->
+                    <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+                        <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+                            <h3><span>Do we really understand</span><strong> how wellbeing is achieved in a
+                                    building?</strong></h3>
+                            <p>
+                                Architecture was once just for shelter, but today we expect it to do more. That's why
+                                we're learning more about how light, air, sound, and temperature shape focus, stress,
+                                and mood. To better understand us, buildings are beginning to "feel back", hinting at a
+                                future
+                                where spaces and people evolve together to enhance wellbeing.
+                                <br>
+                                <br>Could design and technology become a bridge between humans and the places we
+                                inhabit?
+                            </p>
+                            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!--Gambar Editor's Choice-->
+                    <div class="col-lg-4 order-1 order-lg-2 why-us-img">
+                        <div id="carousel-editors-choice" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#carousel-editors-choice" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-editors-choice" data-slide-to="1"></li>
+                            </ul>
+
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="aset/img/editors-choice-cover.jpg" class="img-fluid" alt=""
+                                        data-bs-aos="zoom-in" data-bs-aos-delay="100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="aset/img/editors-choice.jpg" class="img-fluid" alt=""
+                                        data-bs-aos="zoom-in" data-bs-aos-delay="100">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#carousel-editors-choice" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-editors-choice" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Why Us Section -->
+
+        <!-- Testimonials/Competition Section -->
+        <section id="testimonials" class="testimonials section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Architecture Competition</h2>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="aset/img/competition-mw-award.jpg" class="testimonial-img" alt="">
+                                <h3>8th Edition of @mw_award</h3>
+                                <h4>Registration closes on 23 July 2026</h4>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i>
+                                    <span>More than a competition, it is an invitation for architects and designers to
+                                        reimagine public spaces and create landmarks that reflect national identity.
+                                        From abstract geometry to cultural storytelling, it seeks the next iconic
+                                        silhouette to shape the cities. Ready to leave a mark? The journey from concept
+                                        to monument begins now.</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                                <a href="#" class="read-more"><span>Read More</span><i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-item">
+                                <img src="aset/img/competition-next-practices-award.jpg" class="testimonial-img" alt="">
+                                <h3>ArchDaily's 2026 Next Practices Awards by @architecturecompetitions</h3>
+                                <h4>Coming Soon</h4>
+                                <p>
+                                    <i class="bi bi-quote quote-icon-left"></i>
+                                    <span>Coming Soon</span>
+                                    <i class="bi bi-quote quote-icon-right"></i>
+                                </p>
+                                <a href="#" class="read-more"><span>Read More</span><i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div><!-- End testimonial item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+
+        </section><!-- /Testimonials Section -->
+
+        <!-- Call To Action Section -->
+        <section id="architecture" class="call-to-action section dark-background">
+
+            <img src="assets/img/bg/bg-8.webp" alt="">
+
+            <div class="container">
+
+                <div class="row" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-xl-9 text-center text-xl-start">
+                        <h3>Architecture</h3>
+                        <p>We believe architecture matters, and the way we talk about it shapes how it's imagined,
+                            practiced, and lived.
+
+                            Today, ArchDaily is more than a platform: it's a reference, a tool, and a collective voice
+                            empowering architects and creative minds to drive the next chapter of architecture.</p>
+                    </div>
+                    <div class="col-xl-3 cta-btn-container text-center">
+                        <a class="cta-btn align-middle" href="#">Explore More</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- /Call To Action Section -->
+
+        <!-- Recent Blog Postst Section -->
+        <section id="public-spaces" class="recent-blog-postst section light-background">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Public Spaces</h2>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-5">
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
+
+                            <div class="post-img position-relative overflow-hidden">
+                                <img src="aset/img/railway-station.jpg" class="img-fluid" alt="">
+                                <span class="post-date">China</span>
+                            </div>
+
+                            <div class="post-content d-flex flex-column">
+
+                                <h3 class="post-title">Chaka Salt Lake Tourist Railway Station</h3>
+                                <p>
+                                    Chaka Salt Lake Tourist Railway Station organizes transport, leisure, and
+                                    viewing functions within an elevated platform structure overlooking the salt
+                                    lake. The project creates open circulation and public spaces that connect
+                                    arrival, movement, and landscape.
+
+                                    A prefabricated steel structure combined with a membrane roof forms a continuous
+                                    curved surface that defines the station's identity.
+                                </p>
+
+                                <div class="meta d-flex align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-person"></i> <span class="ps-2">THAD SUP Atelier</span>
+                                    </div>
+                                    <span class="px-3 text-black-50">/</span>
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-folder2"></i> <span class="ps-2">Railway Station</span>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <a href="" class="readmore stretched-link"><span>Read More</span><i
+                                        class="bi bi-arrow-right"></i></a>
+
+                            </div>
+
+                        </div>
+                    </div><!-- End post item -->
+
+                    <div class="col-xl-4 col-md-6">
+                        <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+
+                            <div class="post-img position-relative overflow-hidden">
+                                <img src="aset/img/health-care-complex.jpg" class="img-fluid" alt="">
+                                <span class="post-date">Poland</span>
+                            </div>
+
+                            <div class="post-content d-flex flex-column">
+
+                                <h3 class="post-title">ECR Health Care Complex</h3>
+                                <p>Wave 4 & 5 at the ECR Health Care Complex organize laboratories, clinics, and
+                                    hospital spaces within a series of volumes shaped by coastal references. The design
+                                    prioritizes patient comfort, integrating medical functions within environments that
+                                    reduce the perception of institutional space.
+
+                                    Perforated aluminum panels wrap the façades, controlling light and ventilation,
+                                    while prefabricated balconies and landscaped areas connect the buildings to the
+                                    surrounding site.
+                                </p>
+
+                                <div class="meta d-flex align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-person"></i> <span class="ps-2">FAAB</span>
+                                    </div>
+                                    <span class="px-3 text-black-50">/</span>
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-folder2"></i> <span class="ps-2">Health Care Complex</span>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <a href="" class="readmore stretched-link"><span>Read More</span><i
+                                        class="bi bi-arrow-right"></i></a>
+
+                            </div>
+
+                        </div>
+                    </div><!-- End post item -->
+
+                    <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="post-item position-relative h-100">
+
+                            <div class="post-img position-relative overflow-hidden">
+                                <img src="aset/img/business-hub.jpg" class="img-fluid" alt="">
+                                <span class="post-date">Ukraine</span>
+                            </div>
+
+                            <div class="post-content d-flex flex-column">
+
+                                <h3 class="post-title">Prostir Business Hub</h3>
+                                <p>
+                                    Prostir Business Hub organizes logistics, office, and commercial functions through a
+                                    modular system of pitched volumes. The composition transitions from smaller gabled
+                                    units to larger industrial scales, establishing a consistent architectural rhythm
+                                    across the site.
+
+                                    Reinforced concrete and steel structures are combined with sandwich panels and
+                                    aluminum composite façades, allowing adaptable internal configurations.
+                                </p>
+
+                                <div class="meta d-flex align-items-center">
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-person"></i> <span class="ps-2">Aranchii Architects</span>
+                                    </div>
+                                    <span class="px-3 text-black-50">/</span>
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-folder2"></i> <span class="ps-2">Business Complex</span>
+                                    </div>
+                                </div>
+
+                                <hr>
+
+                                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i
+                                        class="bi bi-arrow-right"></i></a>
+
+                            </div>
+
+                        </div>
+                    </div><!-- End post item -->
+
+                </div>
+
+            </div>
+
+        </section><!-- /Recent Blog Postst Section -->
+
+        <!-- Work Process Section -->
+        <section id="house" class="work-process section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>House</h2>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="steps-item">
+                            <div class="steps-image">
+                                <img src="aset/img/house-canada.jpg" alt="Step 1" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="steps-content">
+                                <h3>Passive House Forest Retreat</h3>
+                                <p>Passive House Forest Retreat is designed as a high-performance residence within a
+                                    forested site in British Columbia. The building follows Passive House principles,
+                                    combining energy efficiency with a layout oriented toward views and natural light.
+
+                                    Dark cladding, precise detailing, and expansive glazing define the exterior, while
+                                    cantilevered volumes extend toward the landscape.</p>
+
+                                <p><a href="" class="readmore stretched-link"><span>Read More</span><i
+                                            class="bi bi-arrow-right"></i></a></p>
+
+                                <div class="steps-features">
+                                    <div class="feature-item">
+                                        <i class="bi bi-check-circle"></i>
+                                        <span>Canada</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="bi bi-check-circle"></i>
+                                        <span>Stark</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- End Steps Item -->
+                    </div>
+
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="steps-item">
+                            <div class="steps-image">
+                                <img src="aset/img/house-greece.jpg" alt="Step 1" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="steps-content">
+                                <h3>Veil Adapts a 1950s Residential Building</h3>
+                                <p>PVeil adapts a 1950s residential building in Athens through the addition of a new
+                                    volume that respects the existing urban fabric while introducing contemporary living
+                                    spaces. The project maintains setbacks to create outdoor areas and preserve spatial
+                                    relationships with the street.
+
+                                    A double-skin façade of perforated aluminum panels regulates light, ventilation, and
+                                    privacy, while preserved elements such as marble, wood flooring, and traditional
+                                    frames are combined with new interventions.</p>
+
+                                <p><a href="" class="readmore stretched-link"><span>Read More</span><i
+                                            class="bi bi-arrow-right"></i></a></p>
+
+                                <div class="steps-features">
+                                    <div class="feature-item">
+                                        <i class="bi bi-check-circle"></i>
+                                        <span>Greece</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="bi bi-check-circle"></i>
+                                        <span>Arid</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- End Steps Item -->
+                    </div>
+
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="steps-item">
+                            <div class="steps-image">
+                                <img src="aset/img/house-costarica.jpg" alt="Step 1" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="steps-content">
+                                <h3>Ojo de Nila House</h3>
+                                <p>Ojo de Nila House opens fully toward the Pacific Ocean, organizing its spaces to
+                                    maintain a continuous relationship with the surrounding landscape. The layout
+                                    removes barriers between interior and exterior, allowing natural airflow and views
+                                    to define daily use.
+
+                                    A lightweight structure supports a curved roof that provides shade and ventilation,
+                                    while materials such as teak and metal respond to the coastal climate.</p>
+
+                                <p><a href="" class="readmore stretched-link"><span>Read More</span><i
+                                            class="bi bi-arrow-right"></i></a></p>
+
+                                <div class="steps-features">
+                                    <div class="feature-item">
+                                        <i class="bi bi-check-circle"></i>
+                                        <span>Costa Rica</span>
+                                    </div>
+                                    <div class="feature-item">
+                                        <i class="bi bi-check-circle"></i>
+                                        <span>Studio Saxe</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- End Steps Item -->
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </section><!-- /Work Process Section -->
+
+        <!-- Team/Project Review Section -->
+        <section id="team" class="team section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Project Review</h2>
+                <p>Learn more about the weekly project review.</p>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member d-flex align-items-start">
+                            <div class="pic"><img src="aset/img/project-review-nursery-school.jpg" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Nursery School</h4>
+                                <span>in Muro by BOS Arquitectes</span>
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member d-flex align-items-start">
+                            <div class="pic"><img src="aset/img/project-review-lei-wa-lakom-library.jpg"
+                                    class="img-fluid" alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Lei Wa Lakom Library</h4>
+                                <span>by Parallel Studio</span>
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member d-flex align-items-start">
+                            <div class="pic"><img src="aset/img/project-review-floating-house.jpg" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Floating House</h4>
+                                <span>by CTA | Creative Architects</span>
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="team-member d-flex align-items-start">
+                            <div class="pic"><img src="aset/img/project-review-training-house.jpg" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="member-info">
+                                <h4>Refuge in the Rainforest - Tour Guide Training Center</h4>
+                                <span>by Héctor Ayarza + Estudio Garúa</span>
+                                <a href="#" class="read-more">Read More</a>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+                </div>
+
+            </div>
+
+        </section><!-- /Team Section -->
+    </main>
+
+    <footer id="footer" class="footer">
+
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <h4>Join With Us</h4>
+                        <p>Sign in if you want to make the best of your experience on our site</p>
+                        <form action="forms/newsletter.php" method="post" class="php-email-form">
+                            <div class="newsletter-form"><input type="email" name="email"><input type="submit"
+                                    value="Sign in"></div>
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your sign in request has been sent. Thank you!</div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Arsha</strong> <span>All Rights Reserved</span>
+            </p>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you've purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | <a
+                    href="https://bootstrapmade.com/tools/">DevTools</a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="aset/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="aset/vendor/php-email-form/validate.js"></script>
+    <script src="aset/vendor/aos/aos.js"></script>
+    <script src="aset/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="aset/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="aset/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="aset/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="aset/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="aset/js/main.js"></script>
+</body>
+
+</html>
